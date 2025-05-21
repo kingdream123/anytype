@@ -67,19 +67,20 @@ html.themeDark {
     --color-green: #31748f;
 }
 
-/* Custom font
+/* Custom font */
 body {
-    font-family: "Cartograph CF";
+    font-family: "Maple Mono NF CN";
 }
-*/
 
 .block.blockText.textCallout>.wrapContent {
     border-radius: 30px;
 }
 
+/*
 .markerInner {
-	background: var(--color-text-secondary) !important;
+    background: var(--color-text-secondary) !important;
 }
+*/
 
 .vault, .head, .root-loader {
 	background: var(--color-bg-primary) !important;
@@ -93,9 +94,12 @@ body {
 	background-color: var(--color-bg-tertiary);
 }
 
+/* 弹出菜单时，模糊背景内容 */
+/*
 .dimmer {
-	backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
 }
+*/
 
 #popupSettings-innerWrap, #popupPage-innerWrap {
     box-shadow: 0px 0px 20px 0px var(--color-bg-tertiary);
